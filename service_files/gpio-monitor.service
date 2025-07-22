@@ -1,0 +1,9 @@
+[Unit]
+Description=GPIO monitor service for OpenBMC
+
+[Service]
+Restart=no
+ExecStart=/usr/bin/gpio-monitor --config /usr/share/gpio-monitor/gpio-monitor.json
+
+[Install]
+RequiredBy=multi-user.target

@@ -1,0 +1,20 @@
+[{
+    "Name": "button1",
+    "LineName": "btn1",
+    "ChipId": "gpiochip0",
+    "GpioNum": 192,
+    "EventMon": "FALLING",
+    "Target": "phosphor-pid-control.service",
+    "ledTargetName": "devkit_blue",
+    "Continue": true
+},
+{
+    "Name": "button2",
+    "LineName": "btn2",
+    "ChipId": "gpiochip0",
+    "GpioNum": 193,
+    "EventMon": "FALLING",
+    "Target": "phosphor-pid-control.service",
+    "ledTargetName": "devkit_red",
+    "Continue": true
+}]

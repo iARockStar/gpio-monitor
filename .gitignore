@@ -1,0 +1,39 @@
+# Build output directory
+build/
+
+# Meson generated files and logs
+meson-logs/
+meson-private/
+
+# Ninja files
+build.ninja
+build.ninja.d
+
+# Compiled object files and binaries
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.out
+*.elf
+
+# Editor backup and config files
+*~
+*.swp
+*.vscode/
+.idea/
+
+# Python virtual environment (if used)
+.venv/
+venv/
+
+# Meson subproject sources (downloaded libs)
+subprojects/*
+
+# But keep wrap files for dependencies
+!subprojects/*.wrap
+
+# Optional: keep patches if you have any
+!subprojects/patches/
